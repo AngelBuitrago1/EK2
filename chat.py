@@ -84,8 +84,8 @@ def response_generator(response_str):
         time.sleep(0.01)
         yield word
 
-st.set_page_config(page_title='Automation Anywhere - AAI Brain', page_icon = 'https://chat-beta.automationanywhere.com/assets/icon/favicon.ico', layout='wide')
-st.header("Automation Anywhere - AAI Brain")
+st.set_page_config(page_title='Automation Anywhere + SURA - AAI Brain', page_icon = 'https://chat-beta.automationanywhere.com/assets/icon/favicon.ico', layout='wide')
+st.header("Automation Anywhere + SURA - AAI Brain")
 # st.image("https://chat-beta.automationanywhere.com/static/media/aa-gen-ai-logo.17572d7b831dd1a39cf8.png")
 st.html("""
     <!doctype html>
@@ -97,6 +97,8 @@ st.html("""
     <body>
     <center> 
     <img src=https://chat-beta.automationanywhere.com/static/media/aa-gen-ai-logo.17572d7b831dd1a39cf8.png width=200>
+    <br>
+    <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUM8yI9S7IP-BvTQbWHzjH73ElR-s3_NkMZtXB3AOKI8qXFIJolGKKtzQGfqqFsb9nT6Y&usqp=CAU width=300>
     </center>
     </html>
 """)
